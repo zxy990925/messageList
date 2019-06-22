@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+ul li {
+    -webkit-tap-highlight-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+input {
+    outline: none;
+}
+input:focus {
+    outline: none;
+}
+
+html {
+    font-size: 100px; }
+
+body {
+    font-size: 16px;
+
+}
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+
+header {
+    position: fixed;
+    height: 0.88rem;
+    /*padding: 0 0.22rem;*/
+    border: 4px solid #eee;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 999;
+}
+header input {
+    width: 100%;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    font-size: 0.26rem;
+    text-align: center;
+    border: none;
+
+
+}
+.main {
+    overflow: hidden;
+    padding: 0.88rem 0.22rem 0;
+    position: relative;
+    /*top: 0.88rem;*/
+}
+section div {
+    height: 0.88rem;
+    line-height: 0.88rem;
+    border-bottom: 1px solid #ddd;
+
+}
+section {
+    position: relative;
+}
+
+section a {
+    color: #333;
+}
+.aside {
+    position: fixed;
+    right: 0.1rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.aside li {
+    color: #ddd;
+}
+h2 {
+    margin-top: 2px;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+    background-color: #ddd;
+    border-radius: 50%;
+    color: deepskyblue;
+}
+
+.aside  .focus_li {
+    color: #333;
+    transform: scale(1.2);
+}
